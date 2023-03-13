@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Add botstrap -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="styles.css">
+  <title>2023 JavaScript Conference</title>
+
+  <!-- fontawesome icons -->
+  <script src="https://use.fontawesome.com/102b7523f5.js"></script>
+
+</head>
+<body>
+  <nav class="nav-bar d-flex justify-content-end  py-0">
+    <div class="socials d-none w-50 d-md-flex justify-content-center align-items-center h-100 
+       rounded-start-0 rounded-top-pill">
+      <i class="fa fa-facebook-f me-3"></i>
+      <i class="fa fa-twitter me-3"></i>
+      <a href="#" class="text-decoration-none me-3 text-light">English</a>
+      <a href="#"  class="text-decoration-none me-3 text-light">My page</a>
+      <a href="#"  class="text-decoration-none me-3 text-light">Logout</a>
+    </div>
+  </nav>
+  <nav class="navbar container-fluid navbar-expand-lg menu-links">
+    <div class="container-fluid d-flex justify-content-between" id="navbarr">
+      <a class="navbar-brand d-none d-md-block" href="#">artExhibition</a>
+      <button class="navbar-toggler border-0 hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars hamburger"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">About</a>
+          <a class="nav-link" href="#">Program</a>
+          <a class="nav-link" href="#">Join</a>
+          <a class="nav-link">Sponsor</a>
+          <a class="nav-link">News</a>
+          <a class="nav-link">CC Campaign</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main class="vh-100 w-100 d-flex flex-column">
+    <section class="container-fluid  advert">
+      <p class="ad pt-4">"Hello Sharing World"</p>
+      <h1 class="ad-title fw-bolder fs-2">COME EXPERIENCE ART LIKE NEVER BEFORE <br>
+        2023
+      </h1>
+      <p class="description border border-3 border-light p-2 mt-4 mb-3 text-opacity-75">
+        Join us for an extraordinary display of creativity, featuring a curated collection of stunning artworks
+        from talented artists. Don't miss this opportunity to experience the transformative power of art.
+      </p>
+      <div class="date">
+        <h2 class="ate my-2 fw-bolder">2023.05.01(FRI) ~ 02(SAT)</h2>
+        <p class="location">@ Nairobi National Museum, Nairobi Kenya</p>
+      </div>
+    </section>
+
+    <section class="main-content  mt-4 w-100">
+      <div class="title d-flex flex-column justify-content-center">
+        <h3 class="text-light mt-4 mb-1 text-center">Main Program</h3>
+        <hr class="hr w-25 mx-auto border border-1 border-danger">
+      </div>
+      <div class="cards d-flex flex-column justify-content-between container-fluid gap-3 mt-4">
+        <div class="card cardbg h-50 p-2 w-100 d-flex flex-row justify-content-evenly align-items-center
+          rounded-0 mb-3">
+          <img src="images/speaker.svg" class="cardimg" alt="speaker">
+          <h5 class="cardtitle fw-bolder h3 mx-3 opacity-100">Lecture</h5>
+          <p class="cartex fw-bold">Listen to world known artists as they share their crafts</p>   
+        </div>
+
+        <div class="card cardbg h-50 p-2 w-100 d-flex flex-row justify-content-evenly align-items-center
+          rounded-0 mb-3">
+          <img src="images/exhibition.svg" class="cardimg" alt="speaker">
+          <h5 class="cardtitle fw-bolder h3 mx-3 opacity-100">Exhibition</h5>
+          <p class="cartex fw-bold">Listen to world known artists as they share their crafts</p>
+        </div>
+
+        <div class="card cardbg h-50 p-2 w-100 d-flex flex-row justify-content-evenly align-items-center
+            rounded-0 mb-3">
+          <img src="images/quiz.svg" class="cardimg" alt="speaker">
+          <h5 class="cardtitle fw-bolder h3 mx-3 opacity-100">Forum</h5>
+          <p class="cartex fw-bold">Get an opportunity to ask art experts questions </p>
+        </div>
+
+        <div class="card cardbg h-50 p-2 w-100 d-flex flex-row justify-content-evenly align-items-center
+          rounded-0 mb-3">
+          <img src="images/presentation.svg" class="cardimg" alt="speaker">
+          <h5 class="cardtitle fw-bolder h3 mx-3 opacity-100">Workshop</h5>
+          <p class="cartex fw-bold">Learn everything you need to know to succeed in the market</p>
+        </div>
+
+        <div class="card cardbg h-50 p-2 w-100 d-flex flex-row justify-content-evenly align-items-center
+          rounded-0 mb-3">
+          <img src="images/network.svg" class="cardimg" alt="speaker">
+          <h5 class="cardtitle fw-bolder h3 mx-3 opacity-100">Network</h5>
+          <p class="cartex fw-bold">Come network with people you share the same intersts</p>
+        </div>
+
+        <div class="card join-btn h-50 p-2 mx-auto d-flex flex-row justify-content-evenly align-items-center
+          rounded-0 mb-3">
+          <h5 class="cardtitle fw-bolder py-3 text-center mx-3 opacity-100 text-light">Join Our Art Exhibition</h5>
+        </div>
+      </div>
+      
+    </section>
+    
+  </main>
+
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
