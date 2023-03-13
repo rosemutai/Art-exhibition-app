@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+i {
+  color: #fff;
+}
+
+.hamburger {
+  color: #272a31;
+  font-size: 1.8rem;
+}
+
+.nav-bar,
+.card {
+  background-color: #272a31;
+}
+
+.socials,
+main {
+  background-color: #f7f5f5;
+}
+
+.menu-links {
+  background-color: #d3d3d3;
+}
+
+.ad,
+h5.card-title {
+  color: #ec5242;
+}
+
+.ad-title {
+  letter-spacing: 0.8px;
+  color: #ec5242;
+}
+
+.date {
+  color: #272a31;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+
+.main-content {
+  background-color: #272a31;
+}
+
+.hr {
+  border-bottom: 1px solid #ec5242;
+}
+
+.cardimg {
+  width: 80px;
+  height: 80px;
+}
+
+.cardbg {
+  background-color: #464e61;
+  opacity: 0.4;
+}
+.cardtitle {
+  color: #ec5242;
+}
+
+.join-btn {
+  width: 90%;
+  background-color: #ec5242;
+}
+
+#navbarr {
+  background-image: url('images/art1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+}
