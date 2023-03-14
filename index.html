@@ -117,15 +117,21 @@
       
     </section>
 
-    <section class="mt-4 w-100 bg-light">
+    <section class="mt-4 mb-5 w-100 bg-light">
       <div class="title d-flex flex-column justify-content-center">
         <h3 class="text-dark h4 fw-bold mt-4  text-center">Featured Speakers</h3>
-        <hr class="hr mx-auto border border-1 border-danger">
+        <hr class="hr mx-auto border mb-3 border-1 border-danger">
       </div>
 
       <!-- dynamic speakers data from app.js -->
-      <div class="speakers d-flex flex-column justify-content-between container-fluid
-        gap-3 mt-4 vh-100 flex-md-wrap bg-light" id="speakers-section"></div>  
+      <div class="speakers d-flex flex-column flex-md-row justify-content-between mx-md-auto px-md-5
+        mt-5 flex-md-wrap bg-light" id="speakers-section"></div>  
+
+      <button class="cardtitle fw-bold py-3 text-center mt-4 border-light-subtle mx-auto ms-1
+        text-dark opacity-100 text-light text-decoration-none rounded" id="show-more-btn">
+        More <span><i class="ms-2 fa fa-chevron-down chevron-arrow"></i></span>
+      </button>
+                
     </section>
   </main>
   <section class="partners d-none d-md-block w-100 bg-dark mb-4 h-50">
@@ -142,7 +148,7 @@
       <img src="images/samsung.png" alt="chambers">
     </div>
   </section>
-  <footer class="footer w-full px-4 d-flex py-5">
+  <footer class="footer d-none d-md-block w-full px-4 d-flex py-5">
     <div class="company d-flex ms-3">
       <img src="images/kenya.png" style="width: 90px; height: 50px;" alt="kenya map">
       <h5 id="companytitle" class="company-title fw-bolder small pt-2">Kenya <br> Creatives Department (KCD)</h5>
