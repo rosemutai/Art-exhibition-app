@@ -35,6 +35,50 @@ h5.card-title {
   border: 2px solid #fff;
 }
 
+.art-logo-details,
+.past-exhibitions {
+  background-color: #fff;
+}
+
+.card-audience {
+  background-color: #ec5242;
+}
+
+.year {
+  top: 40%;
+  left: 30%;
+}
+
+.place {
+  top: 64%;
+  left: 25%;
+}
+
+.about-logo {
+  background-color: #fff;
+  border: 2px solid #d3d3d3;
+}
+
+.email-contact {
+  color: #272a31;
+  opacity: 0.8;
+}
+
+.email-contact {
+  color: #272a31;
+}
+
+.about {
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+.email {
+  color: #272a31;
+  opacity: 1;
+}
+
 .date {
   color: #272a31;
   opacity: 0.8;
@@ -88,9 +132,14 @@ hr {
   color: #d3d3d3;
 }
 
- .cards-ad .card:hover {
-   border: 2px solid #fff;
- }
+.cards-ad .card:hover {
+  border: 2px solid #fff;
+}
+
+.our-partners img {
+  width: 50px;
+  height: 50px;
+}
 
 @media screen and (min-width: 768px) {
   h1.ad-title {
@@ -108,6 +157,11 @@ hr {
     width: 60%;
     padding-left: 0;
     border: 5px solid #fff;
+  }
+
+  .email-contact {
+    width: 60%;
+    padding-left: 0;
   }
 
   .register-btn {
