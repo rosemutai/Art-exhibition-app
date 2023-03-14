@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  background-color: rgba(211, 211, 211, 0.1);
 }
 
 i {
@@ -13,18 +14,9 @@ i {
   font-size: 1.8rem;
 }
 
-.nav-bar,
-.card {
+.card,
+.nav-bar {
   background-color: #272a31;
-}
-
-.socials,
-main {
-  background-color: #f7f5f5;
-}
-
-.menu-links {
-  background-color: #d3d3d3;
 }
 
 .ad,
@@ -37,10 +29,21 @@ h5.card-title {
   color: #ec5242;
 }
 
+.description {
+  color: #272a31;
+  opacity: 0.8;
+  border: 2px solid #fff;
+}
+
 .date {
   color: #272a31;
   opacity: 0.8;
   letter-spacing: 1px;
+}
+
+.company-title,
+.second-column p {
+  color: #272a31;
 }
 
 .main-content {
@@ -57,21 +60,80 @@ h5.card-title {
 }
 
 .cardbg {
-  background-color: #464e61;
-  opacity: 0.4;
+  background-color: rgba(211, 211, 211, 0.1);
 }
-.cardtitle {
+
+.cardtitle,
+.active {
   color: #ec5242;
 }
 
-.join-btn {
+.register-btn {
   width: 90%;
   background-color: #ec5242;
 }
 
-#navbarr {
-  background-image: url('images/art1.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.4;
+.join-btn {
+  background-color: #fff;
+  border: 3px solid #ec5242 !important;
+  color: #ec5242;
+}
+
+hr {
+  width: 5%;
+  margin: 0 auto;
+}
+
+.partner-title {
+  color: #d3d3d3;
+}
+
+ .cards-ad .card:hover {
+   border: 2px solid #fff;
+ }
+
+@media screen and (min-width: 768px) {
+  h1.ad-title {
+    width: 50%;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .top-nav {
+    box-shadow: 1px 3px 20px rgba(39, 42, 49, 0.2);
+  }
+
+  .description {
+    width: 60%;
+    padding-left: 0;
+    border: 5px solid #fff;
+  }
+
+  .register-btn {
+    background-color: inherit;
+    border: none;
+  }
+
+  .join-btn a {
+    text-decoration: underline;
+    border-bottom: 1px solid #fff !important;
+  }
+
+  .cardtitle {
+    font-size: 1.4rem;
+  }
+
+  .speakers {
+    background-color: #fff;
+  }
+
+  .our-partners img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cards-ad .card{
+    width: 12rem;
+  }
 }
