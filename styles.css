@@ -14,6 +14,13 @@ i {
   font-size: 1.8rem;
 }
 
+.close-icon {
+  color: #272a31;
+  font-size: 40px;
+  margin: 8px 0;
+
+}
+
 .card,
 .nav-bar {
   background-color: #272a31;
@@ -85,8 +92,9 @@ h5.card-title {
   letter-spacing: 1px;
 }
 
-.company-title,
-.second-column p {
+#companytitle,
+#secondcolumnp,
+#secondcolumnlorem {
   color: #272a31;
 }
 
@@ -141,12 +149,42 @@ hr {
   height: 50px;
 }
 
+h1.abouttile {
+  color: #ec5242;
+}
+
+.conference-card img {
+  width: 100%;
+}
+
+.footer {
+  color: #272a31;
+}
+
 @media screen and (min-width: 768px) {
+  .conference-card {
+    height: 18rem;
+    width: 50%;
+  }
+
+  .conference-cards-section {
+    width: 75%;
+  }
+
   h1.ad-title {
     width: 50%;
     font-size: 5rem;
     font-weight: 700;
     letter-spacing: 1px;
+  }
+
+  h1.abouttitle {
+    width: 70%;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ec5242;
+    margin: 0 auto;
   }
 
   .top-nav {
@@ -189,5 +227,23 @@ hr {
 
   .cards-ad .card{
     width: 12rem;
+  }
+
+  .about-logo {
+    width: 50%;
+  }
+
+  .about-footer {
+    background-color: #272a31;
+    color: #fff;
+  }
+
+  .company-title,
+  .second-column p {
+    color: #fff;
+  }
+
+  .second-column p.second {
+    width: 60%;
   }
 }
