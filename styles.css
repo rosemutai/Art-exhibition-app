@@ -27,7 +27,8 @@ i {
 }
 
 .ad,
-h5.card-title {
+h5.card-title,
+.chevron-arrow {
   color: #ec5242;
 }
 
@@ -161,6 +162,11 @@ h1.abouttile {
   color: #272a31;
 }
 
+#show-more-btn {
+  width: 92%;
+
+}
+
 @media screen and (min-width: 768px) {
   .conference-card {
     height: 18rem;
@@ -212,12 +218,9 @@ h1.abouttile {
     border-bottom: 1px solid #fff !important;
   }
 
-  .cardtitle {
-    font-size: 1.4rem;
-  }
-
   .speakers {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: red;
   }
 
   .our-partners img {
