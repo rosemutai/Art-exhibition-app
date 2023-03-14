@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Add botstrap -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="styles.css">
+  <title>2023 JavaScript Conference</title>
+
+  <!-- fontawesome icons -->
+  <script src="https://use.fontawesome.com/102b7523f5.js"></script>
+
+</head>
+
+<body>
+  <nav class="nav-bar d-flex justify-content-end  py-0">
+    <div class="socials d-none w-50 d-md-flex justify-content-center align-items-center h-100 
+       rounded-start-0 rounded-top-pill py-1">
+      <i class="fa fa-facebook-f me-3"></i>
+      <i class="fa fa-twitter me-3"></i>
+      <a href="#" class="text-decoration-none me-3 text-light">English</a>
+      <a href="#" class="text-decoration-none me-3 text-light">My page</a>
+      <a href="#" class="text-decoration-none me-3 text-light">Logout</a>
+    </div>
+  </nav>
+  <nav class="top-nav navbar container-fluid navbar-expand-md menu-links bg-light  py-md-3 mb-md-5">
+    <div class="container-fluid d-flex justify-content-between justify-content-md-center px-md-5" id="navbarr">
+      <a class="navbar-brand d-none d-md-block ms-md-5 ps-md-5 fw-bolder " href="#">artExhibition</a>
+      <button class="navbar-toggler border-0 hamburger mt-3" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa fa-bars hamburger"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active me-md-5" aria-current="page" href="#">About</a>
+          <a class="nav-link me-md-5" href="#">Program</a>
+          <a class="nav-link me-md-5" href="#">Join</a>
+          <a class="nav-link me-md-5">Sponsor</a>
+          <a class="nav-link me-md-5">News</a>
+          <a class="nav-link border border-3 py-1 px-4 bg-light bord-danger join-btn">Join Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main class=" w-100 d-flex flex-column">
+    <section class="container-md min-vh-100 container-fluid  advert">
+      <p class="ad pt-4 pt-md-5 mt-md-5 h3 fw-bold">"Hello Sharing World"</p>
+      <h1 class="ad-title fw-bolder display-1 fs-2">COME EXPERIENCE ART LIKE NEVER BEFORE <br>
+        2023
+      </h1>
+      <p class="about description lead p-2 border border-4  py-2 mt-4 mb-3 text-opacity-75">
+        The art exhibition aims to bring together all artists in Kenya so as to promote talent
+        among upcoming artsist. As a country, we also aim to teach artists on ways to monitize
+        art thus building our economy.
+      </p>
+
+      <p class="email-contact text-center py-2 mt-4 mb-3 text-opacity-75">
+        Please contact us per Email for any further questions about The Art Exhibition 2023.
+        <a class="email fw-bolder" href="mailto:kenyanartexhibition@ke.org">kenyanartexhibition@ke.org</a>
+      </p>
+      
+    </section>
+
+    <section class="mt-1 w-100 art-logo-details">
+      <h2 class="text-center fw-bolder mb-3 text-opacity-75">
+        Art Exhibition Kenya, 2023 Logo
+      </h2>
+      <hr class="hr border-danger">
+      <p class="email-contact text-center p-2 mb-3 text-opacity-75">
+        The Kenyan map was decided as the logo to show the origin of the artists by the founders.
+      </p>
+      <div class="about-logo mx-3 d-flex py-4 justify-content-center align-content-center border border-2 mt-3">
+        <img src="images/kenya.png" style="width: 90px; height: 50px;" alt="kenya map">
+        <h5 class="company-title fw-bolder small pt-2">Kenya <br> Creatives Department (KCD)</h5>
+      </div>
+    </section>
+
+    <section class="mt-4 container px-3 past-exhibitions">
+      <div class="title d-flex flex-column justify-content-center">
+        <h3 class="text-dark h4 fw-bold mt-4  text-center">See the past art exhibitions</h3>
+        <hr class="hr mx-auto border border-1 border-danger">
+
+        <p class="email-contact text-center p-2 mb-3 text-opacity-75">
+          Take a look at the last two Art Exhibitions.
+        </p>
+        <div class="card card-audience mb-3">
+          <img class="w-100 position-relative border-0 object-fit-contain" src="images/audience1.jpg" alt="an audience">
+          <h4 class="h2 year fw-bolder display-2 position-absolute text-light">2022</h4>
+          <p class="place fw-bolder position-absolute text-light">
+            Kenya Art Exhibition in Nairobi
+          </p>
+        </div>
+        <div class="card card-audience">
+          <img class="position-relative" src="images/audience2.jpg" alt="an audience" >
+          <h4 class="h2 year fw-bolder display-2 position-absolute text-light">2023</h4>
+          <p class=" place fw-bolder  position-absolute  text-light">
+            Kenya Art Exhibition in Nakuru
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <section class="partners w-100 bg-dark mb-4 h-50  mt-4 py-4">
+    <div class="title d-flex flex-column justify-content-center">
+      <h3 class="partner-title h4 fw-bold mt-4  text-center">Partners</h3>
+      <hr class="hr mx-auto border border-1 mb-3 border-danger">
+    </div>
+
+    <div class="our-partners d-flex px-4 justify-content-between align-items-center">
+      <img src="images/facebook.png" alt="facebook">
+      <img src="images/google.png" alt="google">
+      <img src="images/pintrest.png" alt="company 2">
+      <img src="images/companyA.png" alt="company A">
+      <img src="images/samsung.png" alt="chambers">
+    </div>
+  </section>
+  <footer class="footer w-full px-4 d-flex py-5">
+    <div class="company d-flex ms-1">
+      <img src="images/kenya.png" style="width: 90px; height: 50px;" alt="kenya map">
+      <h5 class="company-title fw-bolder small pt-2">Kenya <br> Creatives Department (KCD)</h5>
+    </div>
+
+    <div class="second-column ms-2 ">
+      <p class="desc fw-bold">2023 Kenya Creatives Department (KCD)</p>
+      <p class="w-100 fw-light ">Some Rights Reserved</p>
+      <p class="w-100 fw-light d-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nesciunt
+        iste rerum nemo soluta voluptate deserunt? Rerum id itaque maxime!</p>
+    </div>
+
+  </footer>
+
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
