@@ -176,6 +176,8 @@ h1.abouttitle {
 
 .background-img {
   background-image: url('images/audience2.jpg');
+  opacity: 0.2;
+  background-size: contain;
 }
 
 .button {
@@ -217,7 +219,7 @@ h1.abouttitle {
 
   h1.ad-title {
     width: 70%;
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: bolder;
   }
 
