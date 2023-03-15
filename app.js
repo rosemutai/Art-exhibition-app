@@ -49,7 +49,7 @@ speakers.slice(0, 2).forEach((speaker) => {
   speakersSection.style.height = '50vh';
 
   const cardContent = `
-    <div class='speaker-card card px-2 w-100 bg-light d-flex flex-row mb-3
+    <div class='speaker-card card px-2  bg-light d-flex flex-row mb-3
       justify-content-center align-items-center rounded-0 border-0'>
       <img src=${speaker.image} class="cardi" style="width: 100px; height: 120px;" alt="speaker">
       <div class='speaker-details ms-4'>
@@ -72,7 +72,7 @@ shoreMoreBtn.addEventListener('click', () => {
     speakersSection.style.height = '100vh';
 
     const cardContent = `
-    <div class='speaker-card card px-2 w-100 bg-light d-flex flex-row mb-3
+    <div class='speaker-card card px-2 bg-light d-flex flex-row mb-3
       justify-content-center align-items-center rounded-0 border-0'>
       <img src=${speaker.image} class="cardi" style="width: 100px; height: 120px;" alt="speaker">
       <div class='speaker-details ms-4'>

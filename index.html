@@ -30,7 +30,7 @@
   <nav class="top-nav navbar container-fluid navbar-expand-md menu-links bg-light  py-md-3 mb-md-5">
     <div class="container-fluid d-flex justify-content-between justify-content-md-center px-md-5" id="navbarr">
       <a class="navbar-brand d-none d-md-block ms-md-5 ps-md-5 fw-bolder " href="/">
-        <img src="images/kenya.png" style="width: 90px; height: 50px;" alt="kenya map">
+        <img src="images/kenya.png" style="width: 80px; height: 40px;" alt="Map of Kenya">
         <span>artExhibition</span>
       </a>
       <button class="navbar-toggler border-0 hamburger mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -39,7 +39,7 @@
       </button>
       <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <i class="fa fa-times close-icon"></i>
+          <i class="fa fa-times d-block d-md-none close-icon"></i>
           <a class="nav-link active me-md-5" aria-current="page" href="./about.html">About</a>
           <a class="nav-link me-md-5" href="#">Program</a>
           <a class="nav-link me-md-5" href="#">Join</a>
@@ -51,9 +51,9 @@
     </div>
   </nav>
   <main class=" w-100 d-flex flex-column">
-    <section class="container-md min-vh-100 container-fluid  advert">
+    <section class="container-md min-vh-100 container-fluid px-md-5  advert">
       <p class="ad pt-4 pt-md-5 mt-md-5 h3 fw-bold">"Hello Sharing World"</p>
-      <h1 class="ad-title fw-bolder display-1 fs-2">KENYA NATIONAL ART EXHIBITIONS <br>
+      <h1 class="ad-title fw-bolder display-1 ">KENYA NATIONAL ART EXHIBITIONS <br>
         2023
       </h1>
       <p class="description border border-4 border-light py-2 mt-4 mb-3 text-opacity-75">
@@ -125,14 +125,15 @@
 
       <!-- dynamic speakers data from app.js -->
       <div class="speakers d-flex flex-column flex-md-row justify-content-between mx-md-auto px-md-5
-        mt-5 flex-md-wrap bg-light" id="speakers-section"></div>  
+        mt-5 flex-md-wrap " id="speakers-section"></div>         
+    </section>
 
-      <button class="cardtitle fw-bold py-3 text-center mt-4 border-light-subtle mx-auto ms-1
-        text-dark opacity-100 text-light text-decoration-none rounded" id="show-more-btn">
+    <div class="button">
+      <button class="cardtitle ms-5 fw-bold py-3 text-center my-4 border-light-subtle mx-auto ms-1
+                  text-dark opacity-100 text-light text-decoration-none rounded" id="show-more-btn">
         More <span><i class="ms-2 fa fa-chevron-down chevron-arrow"></i></span>
       </button>
-                
-    </section>
+    </div>
   </main>
   <section class="partners d-none d-md-block w-100 bg-dark mb-4 h-50">
     <div class="title d-flex flex-column justify-content-center">
@@ -148,7 +149,7 @@
       <img src="images/samsung.png" alt="chambers">
     </div>
   </section>
-  <footer class="footer d-none d-md-block w-full px-4 d-flex py-5">
+  <footer class="footer d-none d-md-flex  w-full px-4 d-flex flex-md-row py-5">
     <div class="company d-flex ms-3">
       <img src="images/kenya.png" style="width: 90px; height: 50px;" alt="kenya map">
       <h5 id="companytitle" class="company-title fw-bolder small pt-2">Kenya <br> Creatives Department (KCD)</h5>

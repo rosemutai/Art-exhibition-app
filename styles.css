@@ -33,7 +33,6 @@ h5.card-title,
 }
 
 .ad-title {
-  letter-spacing: 0.8px;
   color: #ec5242;
 }
 
@@ -164,7 +163,20 @@ h1.abouttile {
 
 #show-more-btn {
   width: 92%;
+  margin: 0 auto;
+}
 
+.speakers .speaker-card {
+  width: 100%;
+}
+
+.button {
+  width: 90%;
+  margin: 0 5%;
+}
+
+h1.abouttitle {
+  color: #ec5242;
 }
 
 @media screen and (min-width: 768px) {
@@ -173,15 +185,19 @@ h1.abouttile {
     width: 50%;
   }
 
+  .button {
+    width: 40%;
+    margin: 0 auto;
+  }
+
   .conference-cards-section {
     width: 75%;
   }
 
   h1.ad-title {
-    width: 50%;
+    width: 70%;
     font-size: 5rem;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-weight: bolder;
   }
 
   h1.abouttitle {
@@ -219,8 +235,16 @@ h1.abouttile {
   }
 
   .speakers {
-    /* background-color: #fff; */
-    background-color: red;
+    background-color: #fff;
+    width: 80%;
+  }
+
+  .speakers {
+    padding-top: 1rem;
+  }
+
+  .speakers .speaker-card {
+    width: 27rem;
   }
 
   .our-partners img {
