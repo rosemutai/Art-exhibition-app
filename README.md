@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
-  <h3><b>Javascript-conference-app </b></h3>
+  <h3><b>Kenya National Art Exhibitions </b></h3>
 
 </div>
 
@@ -62,7 +62,8 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Javascript-conference-app <a name="about-project"></a>
 
-This project is built with HTML & CSS to showcase my html and css skills..
+This project is built with HTML, CSS and JavaScript for the end of module 
+one period at Microverse. It aims to advertise an art exhibition conference.
 
 **Javascript-conference-app** is a simple massage for linter practice
 
@@ -89,6 +90,7 @@ This project is built with HTML & CSS to showcase my html and css skills..
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/html">HTML5</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/css">CSS</a></li>
+    <li><a href="https://getbootstrap.com/">CSS</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
   </ul>
 </details>
