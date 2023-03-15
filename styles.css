@@ -208,6 +208,7 @@ h1.abouttitle {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
+
   .conference-card {
     height: 18rem;
     width: 50%;
@@ -252,7 +253,7 @@ h1.abouttitle {
     border: none;
   }
 
-  .register-btn a{
+  .register-btn a {
     text-decoration: underline;
   }
 
