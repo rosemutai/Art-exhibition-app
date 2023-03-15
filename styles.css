@@ -18,7 +18,6 @@ i {
   color: #272a31;
   font-size: 40px;
   margin: 8px 0;
-
 }
 
 .card,
@@ -69,10 +68,6 @@ h5.card-title,
 .email-contact {
   color: #272a31;
   opacity: 0.8;
-}
-
-.email-contact {
-  color: #272a31;
 }
 
 .about {
@@ -237,9 +232,6 @@ h1.abouttitle {
   .speakers {
     background-color: #fff;
     width: 80%;
-  }
-
-  .speakers {
     padding-top: 1rem;
   }
 
@@ -252,7 +244,7 @@ h1.abouttitle {
     height: 100px;
   }
 
-  .cards-ad .card{
+  .cards-ad .card {
     width: 12rem;
   }
 
