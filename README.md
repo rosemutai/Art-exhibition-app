@@ -110,7 +110,7 @@ one period at Microverse. It aims to advertise an art exhibition conference.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rosemutai.github.io/Javscript-conference-app/)
+- [Live Demo Link]( https://rosemutai.github.io/Art-exhibition-app/)
 
 
 <!-- GETTING STARTED -->
@@ -137,7 +137,7 @@ Example command:
  -->
 ### Setup
 
-Go to github and find the repository with Javscript-conference-app
+Go to github and find the repository with Art-exhibition-app
 Click on code and copy then go to your gitbash cli on your computer Clone this repository to your desired folder
 
 <!--
@@ -145,7 +145,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:rosemutai/Javscript-conference-app.git
+  git clone git@github.com:rosemutai/Art-exhibition-app.git
 ```
 --->
 ### Install
@@ -173,7 +173,7 @@ You can deploy this project using:
 GitHub Pages
 Example:
 ```sh
-git@github.com:rosemutai/Javscript-conference-app.git
+git@github.com:rosemutai/Art-exhibition-app.git
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -196,7 +196,7 @@ git@github.com:rosemutai/Javscript-conference-app.git
 <!-- CONTRIBUTING -->
 ## 🤝 Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!<br/>
-Feel free to check the [https://github.com/rosemutai/Javscript-conference-app/issues.
+Feel free to check the [https://github.com/rosemutai/Art-exhibition-app/issues.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
