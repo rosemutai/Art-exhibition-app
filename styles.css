@@ -14,9 +14,9 @@ i {
   font-size: 1.8rem;
 }
 
-.close-icon {
+#close-icon {
   color: #272a31;
-  font-size: 40px;
+  font-size: 3rem;
   margin: 8px 0;
 }
 
@@ -51,13 +51,15 @@ h5.card-title,
 }
 
 .year {
-  top: 40%;
-  left: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .place {
   top: 64%;
-  left: 25%;
+  left: 40%;
+  transform: translateX(-35%) translateY(-50%);
 }
 
 .about-logo {
@@ -131,6 +133,10 @@ hr {
   margin: 0 auto;
 }
 
+.speaker-hr {
+  width: 10%;
+}
+
 .partner-title {
   color: #d3d3d3;
 }
@@ -159,30 +165,50 @@ h1.abouttile {
 #show-more-btn {
   width: 92%;
   margin: 0 auto;
-}
-
-.speakers .speaker-card {
-  width: 100%;
-}
-
-.button {
-  width: 90%;
-  margin: 0 5%;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  color: #272a31;
 }
 
 h1.abouttitle {
   color: #ec5242;
 }
 
+.background-img {
+  background-image: url('images/audience2.jpg');
+}
+
+.button {
+  background-color: #fff;
+}
+
+.black-chess {
+  top: -6px;
+  left: -8px;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .register-btn a {
+    text-decoration: none;
+  }
+
+  .mobile-speaker-card {
+    background-color: #fff;
+  }
+}
+
 @media screen and (min-width: 768px) {
+  .place {
+    top: 64%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
   .conference-card {
     height: 18rem;
     width: 50%;
-  }
-
-  .button {
-    width: 40%;
-    margin: 0 auto;
   }
 
   .conference-cards-section {
@@ -224,19 +250,27 @@ h1.abouttitle {
     border: none;
   }
 
+  .register-btn a{
+    text-decoration: underline;
+  }
+
   .join-btn a {
     text-decoration: underline;
     border-bottom: 1px solid #fff !important;
   }
 
-  .speakers {
+  .speaker-details {
     background-color: #fff;
+  }
+
+  #desktop-speakers-section {
     width: 80%;
     padding-top: 1rem;
   }
 
-  .speakers .speaker-card {
-    width: 27rem;
+  #desktop-speakers-section .speaker-card {
+    width: 30rem;
+    background-color: #fff;
   }
 
   .our-partners img {
@@ -263,6 +297,18 @@ h1.abouttitle {
   }
 
   .second-column p.second {
-    width: 60%;
+    width: 70%;
   }
+
+  .chess {
+    top: -6px;
+    left: -8px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+  }
+}
+
+.speaker-image {
+  z-index: 12;
 }
