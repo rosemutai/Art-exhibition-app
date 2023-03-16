@@ -245,7 +245,6 @@ li {
   .joinus-btn {
     border: 1px solid #fff;
     width: 50%;
-    
   }
 
   a.joinus-btn {
@@ -265,6 +264,7 @@ li {
     margin-left: auto;
     align-items: center;
   }
+
   .place {
     top: 64%;
     left: 50%;
