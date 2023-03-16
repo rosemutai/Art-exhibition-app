@@ -19,7 +19,7 @@
 
 </head>
 <body>
-  <nav class="nav-bar d-flex justify-content-end  py-0">
+  <nav class="nav-bar d-flex  justify-content-end  py-0">
     <div class="socials d-none w-50 d-md-flex justify-content-center align-items-center h-100 
        rounded-start-0 rounded-top-pill py-1">
       <i class="fa fa-facebook-f me-3"></i>
@@ -29,29 +29,25 @@
       <a href="#"  class="text-decoration-none me-3 text-light">Logout</a>
     </div>
   </nav>
-  <nav class="top-nav navbar container-fluid navbar-expand-md menu-links bg-light  py-md-3">
-    <div class="container-fluid d-flex justify-content-between justify-content-md-center px-md-5" id="navbarr">
-      <a class="navbar-brand d-none d-md-block ms-md-5 ps-md-5 fw-bolder " href="./index.html">
+  <nav class="container py-4 navigation-menu d-flex align-items-center">
+    <div class="logo-hamburger d-none d-md-block">
+      <a href="./index.html">
         <span><img src="images/kenya.png" style="width: 60px; height: 40px;" alt="kenya map"></span>
-        artExhibition</a>
-      <button class="navbar-toggler border-0 hamburger mt-3" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <i class="fa fa-bars hamburger" ></i>
-      </button>
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <i class="fa fa-times d-block d-md-none mb-2" id="close-icon"></i>
-          <a class="nav-link me-md-5" href="/">Home</a>
-          <a class="nav-link active me-md-5" aria-current="page" href="./about.html">About</a>
-          <a class="nav-link me-md-5" href="#">Program</a>
-          <a class="nav-link me-md-5" href="#">Join</a>
-          <a class="nav-link me-md-5">Sponsor</a>
-          <a class="nav-link me-md-5">News</a>
-          <a class="nav-link border border-3 w-50 text-center py-1 px-4 bg-light bord-danger join-btn">Join Us</a>
-        </div>
-      </div>
+        artExhibition</span>
+      </a>
     </div>
+    <i class="fa fa-bars" id="hamburger"></i>
+    <ul class="menu-links ">
+      <li class="styl"><i class="fa fa-times" id="close-icon"></i></li>
+      <li><a href="./index.html" class="me-md-5">Home</a></li>
+      <li><a href="./about.html" class="me-md-5">About</a></li>
+      <li><a href="" class="me-md-5">Program</a></li>
+      <li><a href="" class="me-md-5">Join</a></li>
+      <li><a href="" class="me-md-5">Sponsor</a></li>
+      <li><a href="" class="me-md-5">News</a></li>
+      <li><a class="joinus-btn nav-link border border-3 0 text-center py-1 px-4 
+         bord-danger join-btn">Join Us</a></li>
+    </ul>
   </nav>
   <div class="background-img  w-100 bg-dark">het</div>
   <main class=" w-100 d-flex flex-column">
@@ -80,35 +76,35 @@
         <div class="card cardbg  p-2 d-flex flex-row flex-md-column justify-content-evenly align-items-center
           rounded-0 mb-3">
           <img src="images/speaker.svg" class="cardimg" alt="speaker">
-          <h5 class="cardtitle fw-bolder mx-2 text-center w-50 opacity-100">Lecture</h5>
+          <h5 class="service-title cardtitle fw-bolder mx-2 text-center w-50 opacity-100">Lecture</h5>
           <p class="cartex fw-medium text-md-center text-light">Listen to world known artists as they share their crafts</p>   
         </div>
 
         <div class="card cardbg p-2 d-flex flex-row flex-md-column justify-content-evenly align-items-center
           rounded-0 mb-3">
           <img src="images/exhibition.svg" class="cardimg" alt="speaker">
-          <h5 class="cardtitle fw-bolder mx-2 text-center opacity-100">Exhibition</h5>
+          <h5 class="service-title cardtitle fw-bolder mx-2 text-center opacity-100">Exhibition</h5>
           <p class="cartex fw-medium text-md-center text-light">Listen to world known artists as they share their crafts</p>
         </div>
 
         <div class="card cardbg p-2 d-flex flex-row flex-md-column justify-content-evenly align-items-center
             rounded-0 mb-3">
           <img src="images/quiz.svg" class="cardimg" alt="speaker">
-          <h5 class="cardtitle fw-bolder mx-2 text-center w-50 opacity-100">Forum</h5>
+          <h5 class="service-title cardtitle fw-bolder mx-2 text-center w-50 opacity-100">Forum</h5>
           <p class="cartex fw-medium text-md-center text-light">Get an opportunity to ask art experts questions </p>
         </div>
 
         <div class="card cardbg p-2 d-flex flex-row flex-md-column justify-content-evenly align-items-center
           rounded-0 mb-3">
           <img src="images/presentation.svg" class="cardimg" alt="speaker">
-          <h5 class="cardtitle fw-bolder mx-2 text-center opacity-100">Workshop</h5>
+          <h5 class="service-title cardtitle fw-bolder mx-2 text-center opacity-100">Workshop</h5>
           <p class="cartex fw-medium text-md-center text-light">Learn everything you need to know to succeed in the market</p>
         </div>
 
         <div class="card cardbg p-2 d-flex flex-row flex-md-column justify-content-evenly align-items-center
           rounded-0 mb-3">
           <img src="images/network.svg" class="cardimg" alt="speaker">
-          <h5 class="cardtitle fw-bolder mx-2 text-center opacity-100">Network</h5>
+          <h5 class="service-title cardtitle fw-bolder mx-2 text-center opacity-100">Network</h5>
           <p class="cartex fw-medium text-md-center text-light">Come network with people you share the same intersts</p>
       </div>
       </div>

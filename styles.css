@@ -9,13 +9,14 @@ i {
   color: #fff;
 }
 
-.hamburger {
+#hamburger {
   color: #272a31;
-  font-size: 1.8rem;
+  font-size: 3rem;
+  margin: 8px 0;
 }
 
 #close-icon {
-  color: #272a31;
+  color: #fff;
   font-size: 3rem;
   margin: 8px 0;
 }
@@ -39,6 +40,14 @@ h5.card-title,
   color: #272a31;
   opacity: 0.8;
   border: 2px solid #fff;
+}
+
+h5.service-title {
+  flex-basis: 40%;
+}
+
+.cartex {
+  flex-basis: 45%;
 }
 
 .art-logo-details,
@@ -193,6 +202,16 @@ h1.abouttitle {
   z-index: 1;
 }
 
+li {
+  list-style-type: none;
+}
+
+.logo-hamburger a,
+.menu-links a {
+  text-decoration: none;
+  color: #272a31;
+}
+
 @media screen and (max-width: 768px) {
   .register-btn a {
     text-decoration: none;
@@ -201,9 +220,51 @@ h1.abouttitle {
   .mobile-speaker-card {
     background-color: #fff;
   }
+
+  .menu-links {
+    background-color: #ec5242;
+    display: none;
+    width: 100%;
+    height: 100vh;
+  }
+
+  #hamburger {
+    display: block;
+  }
+
+  .menu-links li {
+    margin-block: 20px;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  .menu-links a {
+    color: #fff;
+  }
+
+  .joinus-btn {
+    border: 1px solid #fff;
+    width: 50%;
+    
+  }
+
+  a.joinus-btn {
+    color: #ec5242;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  #hamburger {
+    display: none;
+  }
+
+  .menu-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    align-items: center;
+  }
   .place {
     top: 64%;
     left: 50%;

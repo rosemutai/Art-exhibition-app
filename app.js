@@ -42,11 +42,18 @@ const speakers = [
   },
 ];
 
+const hamburger = document.getElementById('hamburger');
 const closeNavIcon = document.getElementById('close-icon');
-const nav = document.getElementById('navbarNavAltMarkup');
+const nav = document.querySelector('.menu-links');
+
+hamburger.addEventListener('click', () => {
+  nav.style.display = 'block';
+  hamburger.style.display = 'none';
+});
 
 closeNavIcon.addEventListener('click', () => {
   nav.style.display = 'none';
+  hamburger.style.display = 'block';
 });
 
 const speakersSection = document.getElementById('speakers-section');
@@ -83,8 +90,7 @@ speakers.slice(0, 2).forEach((speaker) => {
   const cardContent = `
     <div class='card mobile-speaker-card px-3 d-flex flex-row mb-3 gap-2
       justify-content-center align-items-center rounded-0 border-0'>
-      <img src=${speaker.image} class="speaker-image" style="background-image: 'images/chess.png'; 
-        width: 100px; height: 120px;" alt="speaker">
+      <img src=${speaker.image} class="speaker-image" style="width: 100px; height: 120px;" alt="speaker">
       <img src='images/chessblack.png' class='black-chess position-absolute' alt='chess'>
       <div class='speaker-details ms-4'>
         <h5 class='cardtitle fw-bold text-dark'>${speaker.name}</h5>
@@ -107,7 +113,7 @@ shoreMoreBtn.addEventListener('click', () => {
     speakersSection.style.marginTop = '2rem';
 
     const cardContent = `
-    <div class=' mobile-speaker-card px-2 bg-light d-flex flex-row mb-3
+    <div class='card mobile-speaker-card px-2 bg-light d-flex flex-row mb-3
       justify-content-center align-items-center rounded-0 border-0'>
       <img src=${speaker.image} class="speaker-image" style="width: 100px; height: 120px;" alt="speaker">
       <img src='images/chessblack.png' class='black-chess position-absolute' alt='chess'>
