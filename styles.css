@@ -176,7 +176,8 @@ h1.abouttitle {
 
 .background-img {
   background-image: url('images/audience2.jpg');
-  opacity: 0.2;
+  opacity: 0.1;
+  height: 4rem;
   background-size: contain;
 }
 
