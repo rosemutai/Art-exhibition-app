@@ -1,12 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
 body {
   font-family: 'Lato', sans-serif;
   background-color: rgba(211, 211, 211, 0.1);
 }
 
+.logo-link {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.4rem;
+}
+
+.logo-link img {
+  object-fit: contain;
+  width: 60px;
+  height: 30px;
+}
+
+.logo-text {
+  border: none;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #ec5242;
+}
+
 i {
   color: #fff;
+  cursor: pointer;
+}
+
+i:hover {
+  transform: scale(1.2);
+  transition: all 2s ease-in-out;
 }
 
 #hamburger {
@@ -17,8 +41,11 @@ i {
 
 #close-icon {
   color: #fff;
-  font-size: 3rem;
-  margin: 8px 0;
+  font-size: 2rem;
+  margin: 8px 0 24px 0;
+  position: absolute;
+  right: 18px;
+  top: 32px;
 }
 
 .card,
@@ -33,7 +60,11 @@ h5.card-title,
 }
 
 .ad-title {
-  color: #ec5242;
+  font-weight: 700;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: url('./images/audience1.jpg');
 }
 
 .description {
@@ -42,12 +73,8 @@ h5.card-title,
   border: 2px solid #fff;
 }
 
-h5.service-title {
-  flex-basis: 40%;
-}
-
 .cartex {
-  flex-basis: 45%;
+  flex-basis: 48%;
 }
 
 .art-logo-details,
@@ -98,7 +125,10 @@ h5.service-title {
   letter-spacing: 1px;
 }
 
-#companytitle,
+#companytitle {
+  color: #ec5242;
+}
+
 #secondcolumnp,
 #secondcolumnlorem {
   color: #272a31;
@@ -114,7 +144,8 @@ h5.service-title {
 
 .cardimg {
   width: 80px;
-  height: 80px;
+  height: 120px !important;
+  object-fit: contain;
 }
 
 .cardbg {
@@ -133,7 +164,7 @@ h5.service-title {
 
 .join-btn {
   background-color: #fff;
-  border: 3px solid #ec5242 !important;
+  border: 2px solid #ec5242 !important;
   color: #ec5242;
 }
 
@@ -151,7 +182,9 @@ hr {
 }
 
 .cards-ad .card:hover {
-  border: 2px solid #fff;
+  border: 2px solid #ec5242;
+  box-shadow: 2px 2px 8px #ec5242;
+  transition: all 1s ease-in-out;
 }
 
 .our-partners img {
@@ -185,9 +218,19 @@ h1.abouttitle {
 
 .background-img {
   background-image: url('images/audience2.jpg');
-  opacity: 0.1;
   height: 4rem;
   background-size: contain;
+  position: relative;
+}
+
+.background-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(236, 82, 66, 0.7);
 }
 
 .button {
@@ -212,6 +255,17 @@ li {
   color: #272a31;
 }
 
+.img-logo {
+  width: 90px;
+  height: 50px;
+}
+
+.img-footer {
+  width: 90px;
+  height: 50px;
+  margin-top: 12px;
+}
+
 @media screen and (max-width: 768px) {
   .register-btn a {
     text-decoration: none;
@@ -221,11 +275,20 @@ li {
     background-color: #fff;
   }
 
+  .main-content {
+    background-color: #272a31;
+
+    /* background-color: red; */
+    margin-top: 40px;
+  }
+
   .menu-links {
     background-color: #ec5242;
     display: none;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    padding-top: 24px;
+    transition: all 5s ease-in-out 1s;
   }
 
   #hamburger {
@@ -233,13 +296,17 @@ li {
   }
 
   .menu-links li {
-    margin-block: 20px;
     font-weight: bold;
     font-size: 1.4rem;
+    margin-bottom: 54px;
   }
 
   .menu-links a {
     color: #fff;
+  }
+
+  .home-link {
+    margin-top: 42px;
   }
 
   .joinus-btn {
@@ -249,12 +316,37 @@ li {
 
   a.joinus-btn {
     color: #ec5242;
+    cursor: pointer;
+  }
+
+  .card {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .service-title {
+    flex-basis: 20%;
+  }
+
+  .cards-ad .card:hover {
+    border: 1px solid #ec5242;
+    box-shadow: 1px 2px 4px #ec5242;
+    transition: all 1s ease-in-out;
+  }
+
+  .register-btn:hover {
+    box-shadow: 2px 2px 8px #ec5242;
   }
 }
 
 @media screen and (min-width: 768px) {
   #hamburger {
     display: none;
+  }
+
+  .menu-link:hover {
+    color: #ec5242;
+    transition: all 1s ease-in;
   }
 
   .menu-links {
@@ -316,12 +408,19 @@ li {
   }
 
   .register-btn a {
-    text-decoration: underline;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border: none;
+    border-bottom: 1px solid #fff;
   }
 
   .join-btn a {
     text-decoration: underline;
     border-bottom: 1px solid #fff !important;
+  }
+
+  .register-btn a:hover {
+    color: #ec5242;
   }
 
   .speaker-details {
@@ -371,6 +470,14 @@ li {
     width: 50px;
     height: 50px;
     z-index: 1;
+  }
+
+  .joinus-btn:hover {
+    cursor: pointer;
+    background-color: #ec5242;
+    color: #fff;
+    box-shadow: 4px 4px 12px #ec5242;
+    transition: all 2s ease-in-out;
   }
 }
 

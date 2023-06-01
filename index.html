@@ -31,28 +31,31 @@
   </nav>
   <nav class="container py-4 navigation-menu d-flex align-items-center">
     <div class="logo-hamburger d-none d-md-block">
-      <a href="./index.html">
-        <span><img src="images/kenya.png" style="width: 60px; height: 40px;" alt="kenya map"></span>
-        artExhibition</span>
+      <a href="./index.html" class="logo-link">
+        <img src="images/kenya.png" alt="kenya map">
+        <span class="logo-text">artExhibition</span>
       </a>
     </div>
     <i class="fa fa-bars" id="hamburger"></i>
-    <ul class="menu-links ">
-      <li class="styl"><i class="fa fa-times" id="close-icon"></i></li>
-      <li><a href="./index.html" class="me-md-5">Home</a></li>
-      <li><a href="./about.html" class="me-md-5">About</a></li>
-      <li><a href="" class="me-md-5">Program</a></li>
-      <li><a href="" class="me-md-5">Join</a></li>
-      <li><a href="" class="me-md-5">Sponsor</a></li>
-      <li><a href="" class="me-md-5">News</a></li>
-      <li><a class="joinus-btn nav-link border border-3 0 text-center py-1 px-4 
-         bord-danger join-btn">Join Us</a></li>
-    </ul>
+    <div>
+      <i class="fa fa-times" id="close-icon"></i>
+      <ul class="menu-links">
+        <li class="home-link"><a href="./index.html" class="me-md-5 menu-link">Home</a></li>
+        <li><a href="./about.html" class="me-md-5 menu-link">About</a></li>
+        <li><a href="" class="me-md-5 menu-link">Program</a></li>
+        <li><a href="" class="me-md-5 menu-link">Join</a></li>
+        <li><a href="" class="me-md-5 menu-link">Sponsor</a></li>
+        <li><a href="" class="me-md-5 menu-link">News</a></li>
+        <li><a class="joinus-btn nav-link border border-3 0 text-center py-1 px-4 
+          bord-danger join-btn">Join Us</a></li>
+      </ul>
+    </div>
+    
   </nav>
-  <div class="background-img  w-100 bg-dark">het</div>
+  <div class="background-img  w-100 bg-dark opacity-25">het</div>
   <main class=" w-100 d-flex flex-column">
-    <section class="container-md min-vh-100 container-fluid px-md-5  advert">
-      <p class="ad pt-4 pt-md-5 mt-md-5 h3 fw-bold">"Hello Sharing World"</p>
+    <section class="container-md container-fluid px-md-5 py-5  advert">
+      <p class="ad pt-4 pt-md-5 mt-md-5 h3 fw-bold">"Hello Art World"</p>
       <h1 class="ad-title fw-bolder display-3 ">KENYA NATIONAL ART EXHIBITIONS <br>
         2023
       </h1>
@@ -66,14 +69,14 @@
       </div>
     </section>
 
-    <section class="main-content mt-md-4 mt-2 w-100">
+    <section class="main-content mt-md-4 w-100">
       <div class="title d-flex flex-column justify-content-center">
         <h4 class="text-light mt-5 mb-1 text-center">Main Program</h4>
         <hr class="hr mb-3 mx-auto border border-1 border-danger">
       </div>
       <div class="cards-ad px-md-5 d-flex flex-column flex-md-row justify-content-between justify-content-md-center 
         container-fluid gap-md-1 gap-3 mt-4">
-        <div class="card cardbg  p-2 d-flex flex-row flex-md-column justify-content-evenly align-items-center
+        <div class="card cardbg  p-2 px-4 d-flex flex-row flex-md-column justify-content-evenly align-items-center
           rounded-0 mb-3">
           <img src="images/speaker.svg" class="cardimg" alt="speaker">
           <h5 class="service-title cardtitle fw-bolder mx-2 text-center w-50 opacity-100">Lecture</h5>
@@ -111,8 +114,7 @@
 
       <div class="card register-btn h-50 p-2 mx-auto d-flex flex-row justify-content-evenly align-items-center
                 rounded-0  my-4 ">
-        <a class="cardtitle fw-bold py-3 text-center mx-3 opacity-100 text-light
-          " href="#">Join Our Art Exhibition</a>
+        <a class="cardtitle registerBtn fw-bold py-3 text-center mx-3 opacity-100 text-light" href="#">Join Our Art Exhibition</a>
       </div>
       
     </section>
@@ -128,12 +130,12 @@
       <div class="speakers h-100 d-flex d-md-none flex-column flex-md-row justify-content-center mx-md-auto px-md-5
         mt-2 flex-md-wrap pt-4" id="speakers-section"></div>
       <!-- desktop version -->
-      <div class="speakers d-none d-md-flex gap-1 flex-column flex-md-row justify-content-center mx-md-auto px-md-5
+      <div class="speakers d-none d-md-flex gap-1 flex-row justify-content-center mx-md-auto px-md-5
         mt-5 flex-md-wrap " id="desktop-speakers-section"></div>
     </section>
 
     <div class="button d-md-none w-100">
-      <button class="cardtitle mx-2 fw-bold py-3 text-center my-4 mx-auto ms-1
+      <button type="button" class="cardtitle mx-2 fw-bold py-3 text-center my-4 mx-auto ms-1
         opacity-100 text-decoration-none rounded text-uppercase" id="show-more-btn">
         More <span><i class="ms-2 fa fa-chevron-down chevron-arrow"></i></span>
       </button>
@@ -156,13 +158,13 @@
   <footer class="footer container-md justify-content-center align-items-center d-none d-md-flex
     flex-md-row py-4 ps-4 mx-auto">
     <div class="company d-flex ms-5 w-25">
-      <img src="images/kenya.png" style="width: 90px; height: 50px;" alt="kenya map">
+      <img src="images/kenya.png" class="img-footer" alt="kenya map">
       <h5 id="companytitle" class="company-title fw-bolder small pt-2">Kenya <br> Creatives Department (KCD)</h5>
     </div>
 
     <div class="second-column ms-5 w-75">
       <p id="secondcolumnp" class="desc fw-bold">2023 Kenya Creatives Department (KCD)</p>
-      <p id="secondcolumnlorem" class="w-75 fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nesciunt 
+      <p id="secondcolumnlorem" class="w-75 fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed 
         iste rerum nemo soluta voluptate deserunt? Rerum id itaque maxime!</p>
     </div>
     
