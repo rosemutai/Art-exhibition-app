@@ -60,11 +60,11 @@ h5.card-title,
 }
 
 .ad-title {
-	font-weight: 700;
-	background-clip: text;
-	-webkit-background-clip: text;
-	color: transparent;
-	background-image: url('./images/audience1.jpg');
+  font-weight: 700;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: url('./images/audience1.jpg');
 }
 
 .description {
@@ -72,8 +72,6 @@ h5.card-title,
   opacity: 0.8;
   border: 2px solid #fff;
 }
-
-
 
 .cartex {
   flex-basis: 48%;
@@ -222,17 +220,17 @@ h1.abouttitle {
   background-image: url('images/audience2.jpg');
   height: 4rem;
   background-size: contain;
-  position: relative; 
+  position: relative;
 }
 
 .background-img::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(236, 82, 66, 0.7);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(236, 82, 66, 0.7);
 }
 
 .button {
@@ -268,6 +266,7 @@ li {
 
   .main-content {
     background-color: #272a31;
+
     /* background-color: red; */
     margin-top: 40px;
   }
@@ -404,13 +403,13 @@ li {
     border-bottom: 1px solid #fff;
   }
 
-   .register-btn a:hover {
-     color: #ec5242;
-  }
-
   .join-btn a {
     text-decoration: underline;
     border-bottom: 1px solid #fff !important;
+  }
+
+  .register-btn a:hover {
+    color: #ec5242;
   }
 
   .speaker-details {
@@ -420,8 +419,6 @@ li {
   #desktop-speakers-section {
     width: 80%;
     padding-top: 1rem;
-    display: flex;
-    flex-wrap: wrap;
   }
 
   #desktop-speakers-section .speaker-card {
@@ -464,7 +461,7 @@ li {
     z-index: 1;
   }
 
-  .joinus-btn:hover{
+  .joinus-btn:hover {
     cursor: pointer;
     background-color: #ec5242;
     color: #fff;
