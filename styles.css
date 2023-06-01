@@ -255,6 +255,17 @@ li {
   color: #272a31;
 }
 
+.img-logo {
+  width: 90px;
+  height: 50px;
+}
+
+.img-footer {
+  width: 90px;
+  height: 50px;
+  margin-top: 12px;
+}
+
 @media screen and (max-width: 768px) {
   .register-btn a {
     text-decoration: none;
